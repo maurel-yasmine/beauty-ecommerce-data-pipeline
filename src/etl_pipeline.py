@@ -135,8 +135,8 @@ def load(clean_rows, products):
     n = cur.execute("SELECT COUNT(*) FROM sales;").fetchone()[0]
     conn.close()
     print(f"  -> Database dibuat: {DB_PATH}")
-    print(f"  -> Tabel 'sales' berisi {n} baris
-")
+    print(f"  -> Tabel 'sales' berisi {n} baris")
+    print("")
 
 def run_pipeline():
     print("=" * 60)
