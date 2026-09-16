@@ -101,5 +101,4 @@ if __name__ == "__main__":
     print("STEP 0: Membuat data mentah (raw) ...")
     write_products()
     write_orders()
-    print("Selesai. Data mentah tersimpan di data/raw/
-")
+    print("Selesai. Data mentah tersimpan di data/raw/")
