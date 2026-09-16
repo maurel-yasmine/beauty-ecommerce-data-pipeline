@@ -62,8 +62,7 @@ def main():
     out_path = os.path.join(REPORT_DIR, "dashboard.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"
-Dashboard tersimpan di: {out_path}")
+    print(f"Dashboard tersimpan di: {out_path}")
 
 def _build_dashboard_html(summary, by_category, top_products, monthly, by_channel):
     data = {
