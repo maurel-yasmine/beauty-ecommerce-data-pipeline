@@ -1,9 +1,3 @@
-"""
-RUN ANALYSIS - Jalankan query SQL & buat dashboard visual.
-Hanya memakai library standar Python (sqlite3).
-Output: reports/dashboard.html (buka di browser).
-"""
-
 import json
 import os
 import sqlite3
